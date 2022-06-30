@@ -3,12 +3,13 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        private String login;
-        private String password;
-        private String confirmPassword;
 
-        public static void doSmth(String login, String password, String confirmPassword) {
-
+        boolean example = Validator.check("hello_kitty", "hello12", "hello12");
+        if (example) {
+            System.out.println("Всё ок");
+        } else {
+            System.out.println("Это не очень, попробуй ещё раз :)");
         }
     }
+
 }
